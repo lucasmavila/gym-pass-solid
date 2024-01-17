@@ -1,5 +1,5 @@
 {
-  "name": "Gym Pass SOLID",
+  "name": "Gym_Pass_SOLID",
   "version": "1.0.0",
   "description": "Gympass style app.",
   "main": "index.js",
@@ -16,8 +16,7 @@
     "test:e2e": "vitest run --dir src/http",
     "pretest:e2e:watch": "npm run test:create-prisma-environment && npm run test:install-prisma-environment",
     "test:e2e:watch": "vitest --dir src/http",
-    "test:coverage": "vitest run --coverage",
-    "postinstall": "npx prisma generate"
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
