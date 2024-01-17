@@ -1,6 +1,6 @@
 # App
 
-Gympass style app.
+App to control check-ins of gym users
 
 ## Functional Requirements
 
@@ -22,12 +22,12 @@ Gympass style app.
 - [x] User should not check-in twice a day
 - [x] User only can check-in if they are 100m away from the GYM
 - [x] The check-in can only be validated up to 20 minutes after it is created;
-- [ ] The check-in can only be validated by administrators
-- [ ] The GYM can only be registered by administrators
+- [x] The check-in can only be validated by administrators
+- [x] The GYM can only be registered by administrators
 
 ## Non Functional Requirements
 
 - [x] The passwords should be encrypted;
 - [x] The application data should be saved in a PostgresSQL;
 - [x] All list of data should be paginated with 20 items per page;
-- [ ] The user should be indentified by a JWT
+- [x] The user should be indentified by a JWT
